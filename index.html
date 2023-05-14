@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <title>Muhammad Haseeb | Front-End Developer</title>
+  </head>
+  <body>
+    <div class="top-head">
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-icon fa-solid fa-bars"></div>
+    <div class="main">
+      <div class="main-content">
+        <h1 class="name">Muhammad <span>Haseeb</span></h1>
+        <p class="tagline">Front-End Developer</p>
+        <a href="cvpdf/Web Developer CV.pdf" download="Web Developer CV.pdf"
+          ><button class="cv-btn">Get CV</button></a
+        >
+        <p class="para">Bring your business online and connect the world.</p>
+      </div>
+    </div>
+    <!-- -------------SKILLS----------------- -->
+    <div class="skills" id="skills">
+      <h1 class="title">skills</h1>
+      <div class="boxes">
+        <div class="box">
+          <i class="icon fa-brands fa-html5"></i>
+          <p>
+            Easy and Clean coding helps read very quickly and change as per your
+            own wish in future.
+          </p>
+        </div>
+        <div class="box">
+          <i class="icon fa-brands fa-css3-alt"></i>
+          <p>
+            With CSS it is easy to style website for better looking and better
+            performance
+          </p>
+        </div>
+        <div class="box">
+          <i class="icon fa-brands fa-js"></i>
+          <p>
+            A little bit help of JavaScript changes the interaction of website.
+          </p>
+        </div>
+        <div class="box">
+          <i class="icon fa-brands fa-react"></i>
+          <p>
+            Better and attractive UI helps look website more beautiful and easy.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------PORTFOLIO----------------- -->
+    <div class="portfolio" id="portfolio">
+      <h1 class="title">Portfolio</h1>
+      <div class="slider">
+        <div class="slides">
+          <img src="imgslider/images/ss4.png" class="slide" />
+          <img src="imgslider/images/ss5.png" class="slide" />
+          <img src="imgslider/images/ss6.png" class="slide" />
+          <img src="imgslider/images/ss7.png" class="slide" />
+          <img src="imgslider/images/ss8.png" class="slide" />
+        </div>
+      </div>
+    </div>
+    <!-- --------------about-------------- -->
+    <div class="about" id="about">
+      <h1 class="title">About</h1>
+      <div class="callbtn">
+        <p class="info">
+          Hello, I'm SEEBI. I'm a front-end developer and I'm providing Services
+          to help people to develop their business on the Web. I love
+          challenges, it helps me learn more and develop a more engaging and
+          professional career.
+        </p>
+        <div class="user-icon">
+          <img src="Images/usericon.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- --------------contact---------------->
+    <div class="contact" id="contact">
+      <form
+        action="mailto:seebiprogrammer@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <script src="imgslider/script.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
