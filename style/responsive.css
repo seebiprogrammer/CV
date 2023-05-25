@@ -254,3 +254,18 @@
     transform: scale(98%);
   }
 }
+
+@media (max-width: 365px) {
+  .main .main-content .name {
+    font-size: 50px;
+  }
+  .main .main-content .para {
+    margin-top: 20px;
+  }
+  .skills .boxes {
+    margin-top: 700px;
+  }
+  .portfolio {
+    margin-top: 700px;
+  }
+}
